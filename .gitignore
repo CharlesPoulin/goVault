@@ -17,9 +17,22 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# Binaries
+/goVault
+
+# Go workspace files
+/bin/
+/pkg/
+/vendor/
+
+
 # Go workspace file
 go.work
 go.work.sum
+
+# Generated files
+/proto/*.pb.go
+
 
 # env file
 .env
